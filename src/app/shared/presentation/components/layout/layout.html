@@ -1,0 +1,21 @@
+<app-toolbar></app-toolbar>
+<mat-sidenav-container class="layout-container">
+
+  <mat-sidenav
+    #sidenav
+    mode="side"
+    opened
+    role="navigation"
+    aria-label="Main navigation">
+
+    <app-sidenav></app-sidenav>
+
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+    <main id="main-content" role="main">
+      <router-outlet></router-outlet>
+    </main>
+  </mat-sidenav-content>
+
+</mat-sidenav-container>
