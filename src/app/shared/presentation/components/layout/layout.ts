@@ -1,18 +1,21 @@
+
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import {MatSidenav, MatSidenavContainer, MatSidenavContent} from '@angular/material/sidenav';
+import { MatSidenavModule } from '@angular/material/sidenav';
+
+import { ToolbarComponent } from '../toolbar/toolbar';
+import { SidenavComponent } from '../sidenav/sidenav';
 
 @Component({
   selector: 'app-layout',
   standalone: true,
   imports: [
     RouterOutlet,
-    MatSidenavContainer,
-    MatSidenav,
-    MatSidenavContent
+    MatSidenavModule,
+    ToolbarComponent,
+    SidenavComponent
   ],
   templateUrl: './layout.html',
   styleUrl: './layout.css'
 })
-export class LayoutComponent {
-}
+export class LayoutComponent {}

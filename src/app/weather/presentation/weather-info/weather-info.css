@@ -1,0 +1,25 @@
+
+:host {
+  display: block;
+  width: 100%;
+}
+
+.weather-card {
+  border-radius: 12px;
+  padding: 8px;
+}
+
+.temperature {
+  margin: 16px 0 8px;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.weather-error {
+  color: #b3261e;
+  overflow-wrap: anywhere;
+}
+
+mat-card-content p {
+  line-height: 1.5;
+}
