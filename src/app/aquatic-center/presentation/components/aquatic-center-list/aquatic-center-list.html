@@ -1,0 +1,8 @@
+
+<section class="center-list" aria-label="Aquatic centers">
+  @for (center of centers; track center.id) {
+    <app-aquatic-center-item [center]="center" />
+  } @empty {
+    <p class="empty-message">No aquatic centers available.</p>
+  }
+</section>

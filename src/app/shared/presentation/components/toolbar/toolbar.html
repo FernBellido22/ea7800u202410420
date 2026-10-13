@@ -1,0 +1,30 @@
+<mat-toolbar class="toolbar" color="primary" role="banner">
+  <img
+    class="toolbar-logo"
+    alt="AquaLife logo"
+  />
+
+  <span class="toolbar-title">
+    AquaLife Aquatic Center Management Platform
+  </span>
+
+  <div class="language-actions" aria-label="Language selection">
+    <button
+      mat-button
+      type="button"
+      aria-label="Change language to English"
+      (click)="changeLanguage('en')"
+    >
+      EN
+    </button>
+
+    <button
+      mat-button
+      type="button"
+      aria-label="Cambiar idioma a español"
+      (click)="changeLanguage('es')"
+    >
+      ES
+    </button>
+  </div>
+</mat-toolbar>

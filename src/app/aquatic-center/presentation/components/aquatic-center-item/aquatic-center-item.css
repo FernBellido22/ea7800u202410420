@@ -1,0 +1,25 @@
+
+:host {
+  display: block;
+  height: 100%;
+}
+
+.center-card {
+  height: 100%;
+  box-sizing: border-box;
+  border-radius: 12px;
+}
+
+mat-card-header {
+  margin-bottom: 16px;
+}
+
+mat-card-title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+mat-card-content p {
+  margin: 10px 0;
+  overflow-wrap: anywhere;
+}
